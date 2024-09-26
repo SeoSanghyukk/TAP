@@ -181,7 +181,7 @@ public class OrderController {
 	    
 	    String pay = (String) orderData.get("pay");
 	    String deliveryMethod = (String) orderData.get("deliveryMethod");		
-	    orderData.put("name", name);
+	    
 	    System.out.println("주문 데이터 확인: \n" +
 	            "------------------------------------\n" +
 	            "상품 번호 (seq): " + seq + "\n" +
